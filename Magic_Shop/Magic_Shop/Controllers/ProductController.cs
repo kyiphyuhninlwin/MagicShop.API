@@ -1,5 +1,5 @@
 ﻿using Magic_Shop.Models.Domain;
-using Magic_Shop.Models.DTO;
+using Magic_Shop.Models.DTO.Product;
 using Magic_Shop.Repositories.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

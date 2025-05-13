@@ -4,6 +4,6 @@
     {
         public int ID { get; set; }
         public string? Name { get; set; }
-        public ICollection<Type>? Types { get; set; }
+        public ICollection<ProductType>? ProductTypes { get; set; }
     }
 }

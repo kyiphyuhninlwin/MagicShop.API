@@ -1,6 +1,6 @@
 ﻿namespace Magic_Shop.Models.Domain
 {
-    public class Type
+    public class ProductType
     {
         public int ID { get; set; }
         public string? Name { get; set; }

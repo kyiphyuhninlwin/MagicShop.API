@@ -1,4 +1,4 @@
-﻿namespace Magic_Shop.Models.DTO
+﻿namespace Magic_Shop.Models.DTO.Category
 {
     public class CategoryDto
     {

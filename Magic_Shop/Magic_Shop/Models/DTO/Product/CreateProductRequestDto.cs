@@ -1,6 +1,6 @@
-﻿namespace Magic_Shop.Models.DTO
+﻿namespace Magic_Shop.Models.DTO.Product
 {
-    public class UpdateProductRequestDto
+    public class CreateProductRequestDto
     {
         public string? Name { get; set; }
         public decimal? Price { get; set; }

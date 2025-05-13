@@ -1,6 +1,6 @@
 ﻿using Magic_Shop.Data;
 using Magic_Shop.Models.Domain;
-using Magic_Shop.Models.DTO;
+using Magic_Shop.Models.DTO.Category;
 using Magic_Shop.Repositories.Implementation;
 using Magic_Shop.Repositories.Interface;
 using Microsoft.AspNetCore.Http;

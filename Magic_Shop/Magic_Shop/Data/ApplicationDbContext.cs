@@ -1,6 +1,6 @@
 ﻿using Magic_Shop.Models.Domain;
 using Microsoft.EntityFrameworkCore;
-using Type = Magic_Shop.Models.Domain.Type;
+using ProductType = Magic_Shop.Models.Domain.ProductType;
 
 namespace Magic_Shop.Data
 {
@@ -15,7 +15,7 @@ namespace Magic_Shop.Data
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Status> Status { get; set; }
         public DbSet<Subcategory> Subcategories { get; set; }
-        public DbSet<Type> Types { get; set; }
+        public DbSet<ProductType> ProductTypes { get; set; }
         public DbSet<Variant> Variants { get; set; }
     }
 }
